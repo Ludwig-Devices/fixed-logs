@@ -1,3 +1,5 @@
+#![cfg_attr(not(test), no_std)]
+
 use core::num::NonZeroU32;
 use fixed::types::{U2F30, U5F27};
 
